@@ -61,7 +61,7 @@
     <th>적 AI 원거리 공격</th>
   </tr>
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/88446d96-a79c-4078-a07f-8b3fb88f05eb" width="350px" height="200px"></td>
+    <td><![Image](https://github.com/user-attachments/assets/dc3b2590-263f-4a5a-9d08-9027187baf0b)></td>
     <td><img src="https://github.com/user-attachments/assets/2873cbc1-d7a1-45b3-b474-2ff85273c305" width="350px" height="200px"></td>
   </tr>
 </table>
