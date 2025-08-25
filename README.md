@@ -22,26 +22,20 @@
 
 ## 🧩 주요 기능
 
-### 🗡 무기 시스템 (Fist / Sword / Hammer / Bow / Warp)
-- 데이터 에셋 기반으로 무기별 장착/공격 로직 분리 및 통합
-- 몽타주, 사운드, 히트박스, 이펙트까지 포함한 데이터 중심 설계
+### 🗡 무기 시스템 (Fist / 로 무기별 장착/공격 로직 분리 및 통합
+- Animation Event를 활용해 히트박스, 발사체, 이펙트 등 타이밍 제어
 
-### 🧗 파쿠르 시스템
-- 장애물 높이 및 거리 계산 후 점프, 슬라이딩, 벽 점프 등 동작 분기
-- 커스터마이징 가능한 이동 애니메이션 연결
+### 🎯 콤보 시스템
+- 콤보 윈도우를 활용해 연속 공격과 분기 콤보 지원
+- 무기 데이터에 따라 콤보 개수, 속도, 넉백 효과를 조정
 
-### 🤖 적 AI 및 EQS 전략
-- EQS + AIService + Behavior Tree 조합
-- 순간이동, 추적, 전투, 히트 반응 등 다양한 AI 상태 및 전투 패턴 구현
-
-### 🏹 활 전투 및 조준 시스템
-- Additive + AimOffset + Animation Layer를 활용한 방향 조준
-- 활줄 휘어짐, 발사 에니메이션, 커서 기반 회전 처리 포함
+### 🤖 적 AI
+- State Machine 기반으로 정찰, 추격, 공격, 회피, 피격 상태 구현
+- 거리·시야·체력 조건에 따른 상태 전환 로직 설계
 
 ### 💥 전투 연출
-- 타겟 락온 시스템
-- 피격 시 순간 정지(Hit Stop), 카메라 쉐이크 등 전투 피드백 강화
-- UPoseableMeshComponent 기반 잔상 시스템 구현
+- 피격 시 순간 정지(Hit Stop), 넉백, 카메라 쉐이크로 타격감 강화
+- 트레일 이펙트 , HP 연동 등으로 투 피드백 제공
 
 ---
 
@@ -53,8 +47,8 @@
     <th>플레이어 순간이동</th>
   </tr>
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/63eaacd9-0e1b-4809-b6a7-d649764e09b7" width="350px" height="200px"></td>
-    <td><img src="https://github.com/user-attachments/assets/5f8a33c7-9a56-4613-a444-7b8af64518ba" width="350px" height="200px"></td>
+    <td><img src="https://github.com/user-attachments/assets/4064d488-73f3-49d5-b0d7-84b51b0c2be8" height="200px"></td>
+    <td><img src="https://github.com/user-attachments/assets/46eeff12-30ce-4243-9c22-6dc18f4f4bb7" width="350px" height="200px"></td>
   </tr>
   <tr>
     <th>적 AI 추적</th>
@@ -62,7 +56,7 @@
   </tr>
   <tr>
     <td><img src="https://github.com/user-attachments/assets/dc3b2590-263f-4a5a-9d08-9027187baf0b" width="350px" height="200px"></td>
-    <td><img src="https://github.com/user-attachments/assets/2873cbc1-d7a1-45b3-b474-2ff85273c305" width="350px" height="200px"></td>
+    <td><img src="https://github.com/user-attachments/assets/45d425c6-ec27-48fb-9a64-558f67408bca" width="350px" height="200px"></td>
   </tr>
 </table>
 
