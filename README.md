@@ -64,8 +64,8 @@
 
 ## 🔗 외부 링크
 
-- 📹 [플레이 영상 보기](https://youtu.be/GogdZGq0ry8)  
-- 📄 [개발 명세서 (Notion)](https://melted-part-f0c.notion.site/Keep-Of-War-21f924ed314980c1a296d35f9729d9ea?source=copy_link)  
+- 📹 [플레이 영상 보기](https://youtu.be/1by5lFuz6O8)  
+- 📄 [개발 명세서 (Notion)](https://melted-part-f0c.notion.site/DarkCity-255924ed314980b89dbcf425b8c9f2b3?source=copy_link)  
 
 ---
 
